@@ -91,7 +91,7 @@ public class Q1 {
 				{
 					height = sc.nextDouble();
 					if(height<0)
-						throw new NegativeValueException("Enter double.");
+						throw new NegativeValueException("Enter positive height.");
 				}
 				catch(NegativeValueException e) 
 				{
@@ -102,7 +102,7 @@ public class Q1 {
 				{
 					base = sc.nextDouble();
 					if(base<0)
-						 throw new NegativeValueException("Enter double.");
+						 throw new NegativeValueException("Enter positive base.");
 				}
 	    		catch(NegativeValueException e) 
 				{
@@ -119,7 +119,7 @@ public class Q1 {
 				{
 					height = sc.nextDouble();
 					if(height<0)
-						throw new NegativeValueException("Enter double.");
+						throw new NegativeValueException("Enter positive height.");
 				}
 				catch(NegativeValueException e) 
 				{
@@ -130,7 +130,7 @@ public class Q1 {
 				{
 					width = sc.nextDouble();
 					if(width<0)
-						 throw new NegativeValueException("Enter double.");
+						 throw new NegativeValueException("Enter positive width.");
 				}
 	    		catch(NegativeValueException e) 
 				{
